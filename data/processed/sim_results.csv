@@ -1,0 +1,5 @@
+PV units/household,peak cut % (B forecast),peak cut % (perfect PV),cost change %,PV self-use pts
+0,11.17,11.17,-7.71,0.0
+3,11.87,11.88,-8.52,0.39
+6,12.12,12.12,-8.8,2.54
+10,12.26,12.29,-8.93,3.49

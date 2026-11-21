@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#0168C9"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFF4E0"
+textColor = "#0B2545"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"   # hides the Settings menu, so users cannot switch to dark mode
