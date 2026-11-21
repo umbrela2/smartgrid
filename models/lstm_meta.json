@@ -1,0 +1,15 @@
+{
+  "pv_max": 0.31824,
+  "lookback": 24,
+  "horizon": 6,
+  "features": [
+    "irradiance",
+    "temp",
+    "cloud",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "epochs_run": 48
+}

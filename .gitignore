@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+*.h5
+.DS_Store
+
+.venv/
+data/raw/
+__pycache__/
+*.pyc
+
+.venv/
+data/raw/
+__pycache__/
+*.pyc
