@@ -1,0 +1,28 @@
+# virtual environments / local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# temporary / editor / OS files
+*.tmp
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# large raw datasets (Kaggle files are downloaded by each user, see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# NOTE: models/consumption_regression.joblib and the small CSVs in data/processed/
+# are intentionally tracked.

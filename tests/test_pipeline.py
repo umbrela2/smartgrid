@@ -1,6 +1,6 @@
 import numpy as np, pandas as pd
-from src.preprocessing import clean_daily, build_dataset, time_split, FEATURES
-from src.model_regression import train
+from src.part_a.preprocessing import clean_daily, build_dataset, time_split, FEATURES
+from src.part_a.model_regression import train
 
 def fake(n_days=400, n_hh=60):
     days = pd.date_range("2012-01-01", periods=n_days)

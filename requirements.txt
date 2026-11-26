@@ -1,7 +1,7 @@
-numpy
-pandas
-scikit-learn
-joblib
-matplotlib
-streamlit
-pillow
+# Runtime dependencies of Agent A (derived from the actual imports in src/).
+# scikit-learn is pinned to the exact version that serialised
+# models/consumption_regression.joblib (1.9.1); other versions may warn or fail on load.
+numpy>=1.26
+pandas>=2.2
+scikit-learn==1.9.1
+joblib>=1.3
